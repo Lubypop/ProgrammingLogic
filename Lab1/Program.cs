@@ -35,7 +35,7 @@
 //     }
 //   }
 
-
+// ^ You will get rid of this after you are comfortable.
 
 
 
@@ -68,8 +68,11 @@ class Program
 
         // Step 2:
         // Add a multi-line comment indicating Name: [Your Name] and Title: [IT-1050 - Lab 1]
+
+        
         Console.WriteLine("Name: Lauren Pierce");
         Console.WriteLine("Title: IT-1050");
+        
 
         // Step 3b: Print varialbles
         Console.WriteLine(myStringName + myFavoriteNumber);

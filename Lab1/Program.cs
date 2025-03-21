@@ -41,6 +41,8 @@
 
 namespace Lab1;
 
+
+
 using System;
 using System.Diagnostics;
 using System.Globalization;
@@ -90,6 +92,14 @@ class Program
         // Step 5: Use Constants (above for best practice)
 
         // Step 6: Use Meaningful Identifiers (verified)
+
+
+        // example of multiline comment
+        
+        /* 
+        Console.WriteLine(myStringName + myFavoriteNumber);
+        Console.WriteLine(myFavoriteLanguage); 
+        */
 
 
     }

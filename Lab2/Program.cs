@@ -101,6 +101,14 @@
             Console.WriteLine(myFloat);
             Console.WriteLine(myDouble1);
 
+        //Part 6: Increment and Decrement
+        // Step a. Declare an int variable and assign it a value of 10.
+        // Step b. Use the increment (++) operator to increase the value by 1, and the decrement (--) operator to decrease it by 1. Print the result after each operation. 
+            int myInt2 = 10;
+            myInt2++;
+            Console.WriteLine(myInt2);
+            myInt2--;
+            Console.WriteLine(myInt2);
 
 
 

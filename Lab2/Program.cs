@@ -64,9 +64,46 @@
             Console.WriteLine("Hey " + userName + "! " + "You're " + age + " years old!");
 
 
-        //
-        
-        
+        //Part 4: Arithmetic Operators 
+        // Step a. Create two int variables called num1 and num2 and assign them values.
+            int num1 = 10;
+            int num2 = 2;
+        // Step b. Perform the following operations and print the results:
+        // Addition - add 10
+            Console.WriteLine(num1+10);
+            Console.WriteLine(num2+10);
+
+
+        //Subtraction - subtract 2l
+            Console.WriteLine(num1-21);
+            Console.WriteLine(num2-21);
+        // Multiplication - times 3
+
+            Console.WriteLine(num1*3);
+            Console.WriteLine(num2*3);
+        // Division - divide by 2
+
+            Console.WriteLine(num1/2);
+            Console.WriteLine(num2/2);
+        // Modulus - modulus 2
+
+            Console.WriteLine(num1%2);
+            Console.WriteLine(num2%2);
+            
+        // Part 5: Floating Point Precision
+        // Step a. Create a float and a double variable. Assign both the same decimal value: 1.123456789.
+
+            float myFloat = 1.123456789F;
+            double myDouble1 = 1.123456789D; 
+
+
+        // Step b. Print both variables to the console. Observe and note the difference in precision between float and double.
+            Console.WriteLine(myFloat);
+            Console.WriteLine(myDouble1);
+
+
+
+
         }
     }
 }

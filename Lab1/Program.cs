@@ -47,6 +47,8 @@ class Program
         // Step 5: Use Constants (above for best practice)
 
         // Step 6: Use Meaningful Identifiers (verified)
-
+        int x = 5;
+        int y = 10;
+        Console.WriteLine(x + y);
     }
   }

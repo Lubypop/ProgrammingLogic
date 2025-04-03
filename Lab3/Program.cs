@@ -1,4 +1,6 @@
-﻿namespace Lab3;
+﻿using System.ComponentModel.Design;
+
+namespace Lab3;
 
 class Program
 {
@@ -42,14 +44,26 @@ class Program
          
             Console.WriteLine("You're good to go!");
           }
-        {
+        
 //Part 3: Conditional Logic – Movie Ticket Pricing
- //Write a program that asks the user to enter their age. Based on their age, display the ticket price category:
-//If the age is less than 5, display: "Ticket is free!"
-If the age is between 5 and 12, display: "Child ticket: $5"
-If the age is between 13 and 64, display: "Standard ticket: $10"
-If the age is 65 or older, display: "Senior ticket: $6"
-Use int.Parse(Console.ReadLine()) (or Convert.ToInt32()) to read and parse the user’s input.
+//Write a program that asks the user to enter their age. Based on their age, display the ticket price category:
+    Console.WriteLine("Enter your age:");
+    int age = Convert.ToInt32(Console.ReadLine());
+  //If the age is less than 5, display: "Ticket is free!"
+    if (age < 5)
+    Console.WriteLine ("Ticket is free!");
+
+  //If the age is between 5 and 12, display: "Child ticket: $5"
+    else if (age >=5 && age <= 12)
+    Console.WriteLine ("Child ticket: $5");
+
+  //If the age is between 13 and 64, display: "Standard ticket: $10"
+    else if (age >= 13 && age <= 64)
+    Console.WriteLine("Standard ticket: $10");
+  //If the age is 65 or older, display: "Senior ticket: $6"
+    else if (age >=65)
+    Console.WriteLine("senior ticket:$6");
+  //Use int.Parse(Console.ReadLine()) (or Convert.ToInt32()) to read and parse the user’s input.
        
     
 

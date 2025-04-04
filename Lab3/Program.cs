@@ -65,9 +65,6 @@ class Program
     Console.WriteLine("senior ticket:$6");
   //Use int.Parse(Console.ReadLine()) (or Convert.ToInt32()) to read and parse the user’s input.
        
-    
-
-
 
 //Part 4: Using a switch Statement
   //Write a program that asks the user to enter a day of the week (1–7). Use a switch statement to display the name of the corresponding day:

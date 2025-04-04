@@ -64,21 +64,54 @@ class Program
     else if (age >=65)
     Console.WriteLine("senior ticket:$6");
   //Use int.Parse(Console.ReadLine()) (or Convert.ToInt32()) to read and parse the user’s input.
-       
+     
+
 
 //Part 4: Using a switch Statement
-  //Write a program that asks the user to enter a day of the week (1–7). Use a switch statement to display the name of the corresponding day:
+  //Write a program that asks the user to enter a day of the week (1–7). 
 
-//1 - Monday
-//2 - Tuesday
-//3 - Wednesday
-//4 - Thursday
-//5 - Friday
-//6 - Saturday
-//7 - Sunday
+     Console.WriteLine("Enter a number (1-7) for the day of the week:");
+     int day = int.Parse(Console.ReadLine());
 
+  // Use a switch statement to display the name of the corresponding day:
+   //1 - Monday
+     switch (day)
+       {
+         case 1:
+            Console.WriteLine("Monday");
+            break;
+    //2 - Tuesday
+         case 2:
+             Console.WriteLine("Tuesday");
+             break;
+    //3 - Wednesday
+         case 3:
+             Console.WriteLine("Wednesday");
+             break;
+    //4 - Thursday
+          case 4:
+            Console.WriteLine("Thursday");
+            break;
+    //5 - Friday
+          case 5:
+            Console.WriteLine("Friday");
+            break;
+           case 6:
+    //6 - Saturday
+            Console.WriteLine("Saturday");
+            break;
+          case 7:
+    //7 - Sunday
+            Console.WriteLine("Sunday");
+            break;
+       }
 //If the user enters an invalid number, display: “Invalid day!”
-      
+      if (day > 8)
+    {
+
+      Console.WriteLine("Invalid day!");
+
+    }
 
 
       

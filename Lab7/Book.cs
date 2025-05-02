@@ -30,7 +30,6 @@ namespace ClassExample
         {
             this.title = newTitle;
         }
-
         
         public string GetAuthor()
         {
@@ -41,7 +40,6 @@ namespace ClassExample
         {
             this.author = newAuthor;
         }
-
 
     }
     

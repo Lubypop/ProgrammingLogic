@@ -1,9 +1,16 @@
-﻿namespace Lab7;
+﻿using System;
 
-class Program
+namespace ClassExample
 {
-    static void Main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            Book book1 = new Book();
+            Console.WriteLine(book1.GetTitle());
+
+            book1.SetTitle("C# Fundamentals");
+            Console.WriteLine(book1.GetTitle());
+        }
     }
 }

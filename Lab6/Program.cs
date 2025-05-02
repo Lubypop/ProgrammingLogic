@@ -50,10 +50,7 @@ class Car
         color = newColor;
         Console.WriteLine($"The car has been repainted to {color}.");
     }
-
 }
-
-
 class Program
 {
   static void Main()

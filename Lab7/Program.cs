@@ -19,6 +19,12 @@ namespace ClassExample
             Book book3 = new Book("Advanced C#", "John Doe");
             Console.WriteLine("Title: " + book3.GetTitle());
             Console.WriteLine("Author: " + book3.GetAuthor());
+
+            Book book4 = new Book();
+            book4.SetTitle("Mastering C#");
+            book4.SetAuthor("Jane Smith");
+            Console.WriteLine("Title: " + book4.GetTitle());
+            Console.WriteLine("Author: " + book4.GetAuthor());
             
 
         }

@@ -5,7 +5,7 @@ namespace Lab8
         public override void animalSound()
         {
             Console.Write("The dog says: ");
-            Console.WriteLine("Woof");
+            Console.WriteLine("bow wow");
         }
     }
 }

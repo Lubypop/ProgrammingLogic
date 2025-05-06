@@ -2,12 +2,12 @@ using System;
 
 namespace Lab8
 {
-  class Animal  // Base class
+  class Animal
   {
-    public string name = "Animal"; // Animal field
-    public void animalSound()              // Animal method 
+    // public string name = "Animal";    < --- may use this but not needed
+    public virtual void animalSound()
     {
-      Console.WriteLine("The animal is making sound");
+      Console.WriteLine("The animal is making sound...");
     }
   }
 }
